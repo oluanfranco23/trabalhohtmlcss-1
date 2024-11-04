@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basquete</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #f39c12;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #e67e22;
+        }
+
+        .jogador {
+            margin-bottom: 20px;
+        }
+
+        .jogador img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .galeria {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .galeria img {
+            flex: 1 1 30%;
+            border-radius: 8px;
+        }
+
+        blockquote {
+            border-left: 4px solid #e67e22;
+            margin: 20px 0;
+            padding-left: 20px;
+            font-style: italic;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Mundo do Basquete!</h1>
+        <nav>
+            <ul>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#regulamento">Regulamento</a></li>
+                <li><a href="#jogadores">Jogadores Famosos</a></li>
+                <li><a href="#ligas">Ligas Profissionais</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#citacoes">Citações Inspiradoras</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="historia">
+            <h2>História do Basquete</h2>
+            <p>O basquete foi criado em 1891 por James Naismith, um professor de educação física, como uma forma de manter seus alunos ativos durante o inverno. Desde então, o esporte cresceu e se tornou uma das atividades mais populares do mundo.</p>
+            <img src="https://example.com/historia.jpg" alt="Basquete Antigo">
+        </section>
+
+        <section id="regulamento">
+            <h2>Regulamento do Jogo</h2>
+            <p>O basquete é jogado entre duas equipes de cinco jogadores cada. O objetivo é marcar pontos arremessando a bola na cesta do adversário. O jogo é dividido em quatro quartos.</p>
+            <ul>
+                <li><strong>Duração da partida:</strong> 4 quartos de 12 minutos.</li>
+                <li><strong>Pontos:</strong> 2 pontos para arremessos de dentro do arco e 3 pontos para arremessos de fora.</li>
+                <li><strong>Faltas:</strong> Cada jogador pode cometer até 5 faltas pessoais antes de ser desqualificado.</li>
+                <li><strong>Tiros livres:</strong> Concedidos após faltas, valem 1 ponto cada.</li>
+            </ul>
+            <img src="https://example.com/regulamento.jpg" alt="Regras do Basquete">
+        </section>
+
+        <section id="jogadores">
+            <h2>Jogadores Famosos</h2>
+            <div class="jogador">
+                <h3>Michael Jordan</h3>
+                <p>Considerado um dos melhores jogadores de basquete de todos os tempos, Michael Jordan levou o Chicago Bulls a seis campeonatos da NBA e é conhecido por suas habilidades excepcionais e competitividade.</p>
+                <img src="https://example.com/michael_jordan.jpg" alt="Michael Jordan">
+            </div>
+            <div class="jogador">
+                <h3>LeBron James</h3>
+                <p>LeBron é conhecido por sua versatilidade e habilidades, conquistando múltiplos campeonatos e prêmios de MVP. Sua influência vai além das quadras, impactando a cultura e a sociedade.</p>
+                <img src="https://example.com/lebron_james.jpg" alt="LeBron James">
+            </div>
+            <div class="jogador">
+                <h3>Kobe Bryant</h3>
+                <p>Kobe Bryant, com sua ética de trabalho e dedicação, se tornou uma lenda do basquete, ganhando cinco títulos da NBA e deixando um legado duradouro após sua trágica morte.</p>
+                <img src="https://example.com/kobe_bryant.jpg" alt="Kobe Bryant">
+            </div>
+        </section>
+
+        <section id="ligas">
+            <h2>Ligas Profissionais</h2>
+            <p>As principais ligas de basquete incluem:</p>
+            <ul>
+                <li><strong>NBA:</strong> A National Basketball Association é a liga de basquete mais famosa e competitiva do mundo, com equipes como Los Angeles Lakers e Boston Celtics.</li>
+                <li><strong>Euroliga:</strong> A principal competição de clubes da Europa, reunindo as melhores equipes do continente.</li>
+                <li><strong>NBB:</strong> A Novo Basquete Brasil é a principal liga de basquete do Brasil, promovendo o crescimento do esporte no país.</li>
+            </ul>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria de Imagens</h2>
+            <div class="galeria">
+                <img src="https://example.com/jogo1.jpg" alt="Jogo de Basquete 1">
+                <img src="https://example.com/jogo2.jpg" alt="Jogo de Basquete 2">
+                <img src="https://example.com/jogo3.jpg" alt="Jogo de Basquete 3">
+            </div>
+        </section>
+
+        <section id="citacoes">
+            <h2>Citações Inspiradoras</h2>
+            <blockquote>
+                <p>"O que importa não é o que você é, mas sim o que você se torna." - Michael Jordan</p>
+            </blockquote>
+            <blockquote>
+                <p>"A disciplina é a ponte entre metas e realizações." - Jim Ryun</p>
+            </blockquote>
+            <blockquote>
+                <p>"Acredite em si mesmo e em tudo o que você é." - Chris Evert</p>
+            </blockquote>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Mundo do Basquete. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
